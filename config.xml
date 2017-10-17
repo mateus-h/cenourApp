@@ -6,14 +6,14 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Só de Cenoura</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aplicativo de menu do restalrante Só de Cenoura.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="mateus-h.github.io" email="mateusmullety@gmail.com">
+        Mateus H.
     </author>
 
     <!--
@@ -87,6 +87,7 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
+    <gap:splash src="splash.png"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
